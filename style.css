@@ -1,0 +1,45 @@
+h1 {
+  color: #4E5150;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 12px;
+  background: var(--gray-6, #F2F2F2);
+  width: 350px;
+  height: 489px;
+  padding: 30px;
+}
+
+.product-card {
+  display: flex;
+  gap: 20px;
+  color: #4E5150;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.product-card img {
+  width: 160px;
+}
+
+.product-card-price {
+  display: flex;
+  gap: 15px;
+}
+
+.product-card-value {
+  color: #4E5150;
+  text-decoration-line: line-through;
+}
+
+.product-price-offer {
+  color: var(--orange, #F2994A);
+  font-size: 14px;
+}
